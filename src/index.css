@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Bmain{
+  margin: 10px auto;
+ width: 500px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+
+}
+.Dmain{
+  margin: 10px auto;
+ width: 500px;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  border-radius: 10px;
+
+}
+.inner{
+  display: flex;
+}
+
+.dp{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100px;
+  margin-right: 15px;
+  
+}
+.date{
+  position: relative;
+  bottom: 2rem;
+  left: 5rem;
+  font-size: small;
+}
+.product{
+  width: 500px;
+}
+.ract{
+  margin: 10px 10px 0px 0px;
+  width: 150px;
+  padding: 5px;
+  background-color:hsl(214, 100%, 50%);
+  color: white;
+  border-radius: 10px;
+} 
+.Bmode{
+  width: 120px;
+position: absolute;
+top: 10px;
+left: 300px;
+padding: 10px;
+border-radius: 10px;
+background-color:white;
+}
+.Dmode{
+  width: 120px;
+position: absolute;
+top: 10px;
+left: 300px;
+padding: 10px;
+border-radius: 10px;
+background-color:black;
+color: white;
+}
